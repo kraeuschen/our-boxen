@@ -35,4 +35,16 @@ class people::kraeuschen {
   file { $projects:
     ensure => directory,
   }
+
+  $dotfiles = "${my_home}/private/dotfiles"
+
+  repository { $dotfiles:
+    source => 'kraeuschen/dotfiles',
+    notify => Exec['make-dotfiles'],
+  }
+
+  exec { 'make-dotfiles':
+    command     => "cd ${dotfiles} && make",
+    refreshonly => true,
+  }
 }

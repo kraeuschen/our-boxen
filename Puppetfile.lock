@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: boxen/puppet-alfred
+  specs:
+    alfred (1.4.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.10.2)
@@ -9,9 +14,19 @@ GITHUBTARBALL
     brewcask (0.0.6)
 
 GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.1.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (2.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-flowdock
+  specs:
+    flowdock (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -44,6 +59,16 @@ GITHUBTARBALL
     hub (1.4.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-intellij
+  specs:
+    intellij (1.5.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-iterm2
+  specs:
+    iterm2 (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.4)
@@ -57,6 +82,11 @@ GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (2.7.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-phantomjs
@@ -79,14 +109,54 @@ GITHUBTARBALL
     ruby (8.1.7)
 
 GITHUBTARBALL
+  remote: boxen/puppet-slate
+  specs:
+    slate (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-spotify
+  specs:
+    spotify (1.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-sublime_text
+  specs:
+    sublime_text (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-vagrant
+  specs:
+    vagrant (3.1.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.13)
+
+GITHUBTARBALL
+  remote: boxen/puppet-viscosity
+  specs:
+    viscosity (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-wget
+  specs:
+    wget (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.2.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-zsh
+  specs:
+    zsh (1.0.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -104,9 +174,12 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
+  alfred (= 1.4.0)
   boxen (= 3.10.2)
   brewcask (= 0.0.6)
+  chrome (= 1.1.2)
   dnsmasq (= 2.0.1)
+  flowdock (= 1.0.0)
   foreman (= 1.2.0)
   gcc (= 2.2.0)
   git (= 2.7.5)
@@ -114,15 +187,26 @@ DEPENDENCIES
   homebrew (= 1.11.2)
   hub (= 1.4.0)
   inifile (= 1.1.1)
+  intellij (= 1.5.1)
+  iterm2 (= 1.0.1)
   module_data (= 0.0.3)
   nginx (= 1.4.4)
   nodejs (= 4.0.0)
   openssl (= 1.0.0)
+  osx (= 2.7.0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
   repository (= 2.3.0)
   ruby (= 8.1.7)
+  slate (= 1.0.1)
+  spotify (= 1.0.2)
   stdlib (= 4.2.1)
+  sublime_text (= 1.0.1)
   sudo (= 1.0.0)
+  vagrant (= 3.1.1)
+  virtualbox (= 1.0.13)
+  viscosity (= 1.0.0)
+  wget (= 1.0.1)
   xquartz (= 1.2.1)
+  zsh (= 1.0.0)
 
