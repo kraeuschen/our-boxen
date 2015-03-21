@@ -2,3 +2,4 @@
 boxen::personal::homebrew_packages:
   - pstree
   - htop
+  - reattach-to-user-namespace
