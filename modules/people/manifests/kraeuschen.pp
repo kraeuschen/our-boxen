@@ -9,10 +9,12 @@ class people::kraeuschen {
   include flowdock
   include sublime_text
 
-  include alfred
   include viscosity
-
   include spotify
+
+  class { 'alfred':
+    version => '2.6_374',
+  }
 
   class { 'intellij':
     edition => 'ultimate',
