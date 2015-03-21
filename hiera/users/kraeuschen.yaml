@@ -1,0 +1,4 @@
+---
+boxen::personal::homebrew_packages:
+  - pstree
+  - htop
